@@ -424,11 +424,7 @@ Example log output:
 
 This topology contains five Cisco routers connected through OSPF routing links.
 
-<a href="diagrams/ospf_routing_topology.png">
-  <img src="diagrams/ospf_routing_topology.png" width="1000">
-</a>
-
-[View Full Size](diagrams/ospf_routing_topology.png)
+![OSPF Topology](diagrams/ospf_routing_topology.png)
 
 ---
 
