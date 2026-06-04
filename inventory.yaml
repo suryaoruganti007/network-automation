@@ -1,0 +1,31 @@
+devices:
+
+  - name: R1
+    host: 192.168.84.10
+    username: admin
+    password: cisco123
+    device_type: cisco_ios
+
+  - name: R2
+    host: 192.168.84.11
+    username: admin
+    password: cisco123
+    device_type: cisco_ios
+
+  - name: R3
+    host: 192.168.84.12
+    username: admin
+    password: cisco123
+    device_type: cisco_ios
+
+  - name: R4
+    host: 192.168.84.13
+    username: admin
+    password: cisco123
+    device_type: cisco_ios
+
+  - name: R5
+    host: 192.168.84.14
+    username: admin
+    password: cisco123
+    device_type: cisco_ios
