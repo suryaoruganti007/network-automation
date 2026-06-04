@@ -412,83 +412,32 @@ Example log output:
 
 ---
 
-# Screenshots
+# Screenshots and Diagrams
 
 
+## OSPF Routing Topology
 
-```text
+![OSPF Routing Topology](diagrams/ospf_routing_topology.png)
 
-# Screenshots
+## Management Network Architecture
 
-## 1. OSPF Routing Topology
+![Management Network Architecture](diagrams/management_network_architecture.png)
 
-This topology contains five Cisco routers connected through OSPF routing links.
+## OSPF Neighbors
 
-![OSPF Topology](diagrams/ospf_routing_topology.png)
+![OSPF Neighbors](screenshots/ospf_neighbors.png)
 
----
+## OSPF Routes
 
-## 2. Management Network Architecture
+![OSPF Routes](screenshots/ospf_routes.png)
 
-This diagram illustrates how the Python automation platform manages all routers through the management network.
+## Backup Output
 
-<a href="diagrams/management_network_architecture.png">
-  <img src="diagrams/management_network_architecture.png" width="1000">
-</a>
+![Backup Output](screenshots/backup_output.png)
 
-[View Full Size](diagrams/management_network_architecture.png)
+## Drift Detection
 
----
-
-## 3. OSPF Neighbor Verification
-
-OSPF adjacency formation between routers after automated deployment.
-
-<a href="screenshots/ospf_neighbors.png">
-  <img src="screenshots/ospf_neighbors.png" width="1000">
-</a>
-
-[View Full Size](screenshots/ospf_neighbors.png)
-
----
-
-## 4. OSPF Route Learning
-
-Verification of dynamically learned OSPF routes.
-
-<a href="screenshots/ospf_routes.png">
-  <img src="screenshots/ospf_routes.png" width="1000">
-</a>
-
-[View Full Size](screenshots/ospf_routes.png)
-
----
-
-## 5. Automated Backup Generation
-
-Successful backup creation for all routers.
-
-<a href="screenshots/backup_output.png">
-  <img src="screenshots/backup_output.png" width="1000">
-</a>
-
-[View Full Size](screenshots/backup_output.png)
-
----
-
-## 6. Configuration Drift Detection
-
-Configuration compliance validation against intended configurations.
-
-<a href="screenshots/drift_detection.png">
-  <img src="screenshots/drift_detection.png" width="1000">
-</a>
-
-[View Full Size](screenshots/drift_detection.png)
-
-
-```
-
+![Drift Detection](screenshots/drift_detection.png)
 
 ---
 
