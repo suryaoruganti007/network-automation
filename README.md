@@ -422,7 +422,7 @@ Example log output:
 
 ## 1. OSPF Routing Topology
 
-This topology contains five Cisco routers connected through a management network and OSPF routing links.
+This topology contains five Cisco routers connected through OSPF routing links.
 
 <a href="diagrams/ospf_routing_topology.png">
   <img src="diagrams/ospf_routing_topology.png" width="1000">
@@ -432,12 +432,11 @@ This topology contains five Cisco routers connected through a management network
 
 ---
 
-## 2. Management Network Architecture Diagram
+## 2. Management Network Architecture
 
+This diagram illustrates how the Python automation platform manages all routers through the management network.
 
-
-<a href="diagrams/management_network_
-architecture.png">
+<a href="diagrams/management_network_architecture.png">
   <img src="diagrams/management_network_architecture.png" width="1000">
 </a>
 
